@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "c6d223e8-c3fa-41c9-a10e-3b54eb95c255",
+		"name": "REST-API_project1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38682492"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
