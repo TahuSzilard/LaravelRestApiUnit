@@ -29,7 +29,7 @@ class FilmsRequest extends FormRequest
                 'description' => 'nullable|string|min:10',
                 'image' => 'nullable|string|min:2',
                 'type_id' => 'nullable|numeric',
-                'lenght' => 'nullable|nullable|numeric',
+                'length' => 'nullable|nullable|numeric',
                 'created_at' => 'nullable|string',
                 'updated_at'=> 'nullable|string',
             ];          
@@ -42,7 +42,7 @@ class FilmsRequest extends FormRequest
             'description' => 'required|string|min:10',
             'image' => 'string|min:2',
             'type_id' => 'required|numeric',
-            'lenght' => 'required|nullable|numeric',
+            'length' => 'required|nullable|numeric',
             'created_at' => 'string',
             'updated_at'=> 'string',
         ];
